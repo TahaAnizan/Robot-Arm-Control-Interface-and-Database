@@ -1,0 +1,49 @@
+body {
+    width: 100%;
+    background-color:  #D27662;
+    color: #CB4A2E;
+}
+p{
+    position: relative;
+    font-size: medium;
+    text-align: center;
+    display: block;
+}
+
+span{
+  width: 45%;
+  padding: 60px;
+  margin: auto;
+}
+div {
+    height: 430px;
+    width: 400px;
+    background-color:#D27662;
+    position: relative;
+    border: 10px solid #CCB5B0;
+    padding: 50px;
+    margin: auto;
+  }
+
+  button {
+    background-color: #D27662;
+    color: #CCB5B0; 
+    border: 2px solid #CCB5B0;
+    width: 45%;  /* with 3 button the width will be = 35% */
+    padding: 30px;
+    outline-style: outset;
+    outline-color: #CCB5B0;
+    transition: width 1s;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #CCB5B0;
+    color: #A87266;
+  }
+
+  .slider {
+    width: 90%;
+    background-color: #D27662;
+  }
